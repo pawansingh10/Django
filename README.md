@@ -53,4 +53,4 @@ Django Basics
    * JavaScript - Making it Funtional, like Engine etc
  
  ## How Website Work?
-   - ![Websitework](websiteworking.png)
+   - ![Websitework](websiteworking.jfif)
