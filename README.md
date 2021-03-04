@@ -39,4 +39,18 @@ Django Basics
    - ``` python manage.py runserver```
    - Now your server start & you have a port
    - [http://127.0.0.1:8000](http://127.0.0.1:8000) open it It say Django Worked Successfully!
-   - 
+
+## HTML & Django, How websites works?
+   - Basic Requirements to build a website
+     - HTML
+     - CSS
+     - JavaScript
+   - Django is not a basic requirement to build a website. It's a platform which help us to make websites in easier way.
+   - Django provides facilities like Rendering Website, Interact with Database etc
+   
+   * HTML - Basic Structure Skeleton
+   * CSS - Design, Color, look & fell etc
+   * JavaScript - Making it Funtional, like Engine etc
+ 
+ ## How Website Work?
+   - ![Websitework](websiteworking.png)
