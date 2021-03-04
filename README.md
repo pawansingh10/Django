@@ -54,3 +54,36 @@ Django Basics
  
  ## How Website Work?
    - ![Websitework](websiteWorking.jfif)
+   - **Client Request** for a website through a link [Youtube](https://www.youtube.com/) to **WebServer** , Webserver process the request and If website found it webserver return HTML+CSS+JS as a **Response** to client on the browser Now It's Browser responsibility to render all the stuff if not found gives 404 Not Found Error.
+   - Browers convert the source code which is not understable by normal human being who is not a developer and render too fast even user not experience it.
+  
+ ## HTML
+   - HTML stands for Hyper Text Markup Language
+   - It's a standard markup language for giving a static skeleton to Web applications or Websites
+ 
+ ## CSS
+   - CSS stands for cascading Style Sheets
+   - It's a style sheet language that is used to handle the presentation of a webpage containing HTML
+   - Makes Look & Feel of website beautiful
+   - CSS3 also provides features like Animation etc
+ 
+ ## JavaScript
+   - JavaScript is a high-level dynamic interpreted programming language
+   - It allows clients-side scripting to create completely dynamic web applications or websites
+   - Button Click, Add Item in cart, Amount Change - Within Clients means within Browers
+  
+ ## Django
+   - ***Django is a free and opensource web application framework written in Python***
+   - Django offers a big **collection of modules** which you can use in your own projects
+   - Django is also a framework. Primarily, frameworks exist to save developer community a lot of waste time and Headache.
+   - Suppose you have a blog website and you have a 1000 of blogs Now you create 1000 html, CSS and JS pages for each it's too lengthy not feasible. We want to save the template of blog and render text from database.
+   - Django have their own **Database Connecter**
+   - Serve Json Response, Static file,media-file and changes in database using Django.
+   - URL Dispatcher
+
+## MVT architecture of Django
+
+    - MVT - Model View Template is a software design pattern.
+    - This View is used to execute the **Business Logic** and Interact with a Model to carry Data & render a template.
+    - There is no separate **Controller** Here Complete Application is based on ModelView Template
+    - ![MVT](mvt.jfif)
