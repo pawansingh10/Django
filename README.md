@@ -124,6 +124,25 @@ Django Basics
           ] 
          ```
       - Project vs App
+      - To make a project fully functional at least one app is required
+      - ``` python manage.py ```
+      - It shows how to create app
+      - ``` python manage.py startapp app_name ```
+      - As command run It create a folder which is same as app_name
+      > ***settings.py is not app specific it's only project specific***
+        - Settings.py contains information about where template is to store, which database is to use, bydefault sqlite, time used by server.
+        - It is already generated automatically. So Don't Worry!
+       
+   - Create a **urls.py** inside app folder
+      - copy as it is as project's urls.py
+      - ```
+        from django.contrib import admin
+        from django.urls import path
+
+        urlpatterns = [
+        path('admin/', admin.site.urls),
+        ]
+        ``` 
      
 
     
