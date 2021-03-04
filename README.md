@@ -240,3 +240,4 @@ Django Basics
                   # return HttpResponse("This is Home Page")
        ```
     
+    
