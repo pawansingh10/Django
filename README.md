@@ -165,7 +165,7 @@ Django Basics
        ```
     - Create views
      
-       -  ```python
+       - ```python
            from django.shortcuts import render, HttpResponse
            # Create your views here.
 
