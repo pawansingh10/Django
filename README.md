@@ -112,6 +112,17 @@ Django Basics
       - Templating Engines process the placeholders of Template which comes at runtime.
     - URL
       - Django Dispatcher decides whether to send urls
+    
+    
+ ## Understand Django
+   - Project_Name Folder
+      - To add urls you have to edit **urls.py**
+      - Request first come in Project's **urls.py** and from here send to any others app **urls.py** 
+      - ```python
+           urlpatterns = [
+            path('admin/', admin.site.urls),
+          ]```
+      - Project vs App
      
 
     
