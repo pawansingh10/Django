@@ -210,4 +210,33 @@ Django Basics
         def index(request):
             return render(request, 'index.html')
      ```
+    - ```html
+          <!DOCTYPE html>
+          <html>
+            <head>
+                 <meta charset="utf-8">
+                 <meta name="viewport" content="width=device-width, initial-scale=1">
+                 <title>This is a Test page</title>
+           </head>
+            <body>
+               Welcome to my website Guys!
+               Let me know if you want to make your own website.
+              <br>
+              Mobile Num is {{variable}}
+              <p>
+                Abc Def Ghi Jkl.
+              </p>
+            </body>
+          </html>
+      ```
+     - ```python
+          from django.shortcuts import render, HttpResponse
+
+          def index(request):
+                  context = {
+                           'variable':"9988776655"
+                  }
+                  return render(request, 'index.html', context)
+                  # return HttpResponse("This is Home Page")
+       ```
     
