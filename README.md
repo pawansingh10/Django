@@ -135,7 +135,7 @@ Django Basics
        
    - Create a **urls.py** inside app folder
       - copy as it is as project's urls.py
-      - ```
+      - ```python
         from django.contrib import admin
         from django.urls import path
 
