@@ -81,10 +81,10 @@ Django Basics
    - Serve Json Response, Static file,media-file and changes in database using Django.
    - URL Dispatcher
 
-## MVT architecture of Django
+  ## MVT architecture of Django
 
-    - MVT - Model View Template is a software design pattern.
-    - This View is used to execute the **Business Logic** and Interact with a Model to carry Data & render a template.
-    - There is no separate **Controller** Here Complete Application is based on ModelView Template
-    - ![MVT](mvt.jfif)
-    - ![Websitework](websiteWorking.jfif)
+   - MVT stands for Model View Template is a software design pattern.
+   - This View is used to execute the **Business Logic** and Interact with a Model to carry Data & render a template.
+   - There is no separate **Controller** Here Complete Application is based on ModelView Template
+   - ![MVT](mvt.jfif)
+    
