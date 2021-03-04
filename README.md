@@ -195,6 +195,6 @@ Django Basics
                '/var/www/static/',
         ]
        ```  
-     
+     > ***Don't put anything in static file which makes any security loop hole*** 
 
     
