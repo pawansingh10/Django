@@ -19,16 +19,16 @@ Django Basics
   2. Django
   3. Open Powershell in your Folder [rightClick]+shift for windows
   4. ```bash pip install django```
-  5. ```bash pip install django --version```
+  5. ```bash pip install django --version ```
   6. Folder open with VSCode
   7. Go To Extension and Search **django** [Baptiste Darthenay] first one
   8. Also Install **python** [microsoft]
   9. Django Documentation
   10. [Django](https://www.djangoproject.com/start/) 
 ## Get Started With Django
+
    - Create a Project
-   - ```bash django-admin startproject project_name
-    ```
+   - ```bash django-admin startproject project_name```
    - Your project will added with multiple files by django-admin
      - Project_Name Folder
        - init.py
