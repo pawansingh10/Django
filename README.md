@@ -206,4 +206,8 @@ Django Basics
        'DIRS': [BASE_DIR / "templates"],
      ```
    - Create a index.html inside template
+   - ```python
+        def index(request):
+            return render(request, 'index.html')
+     ```
     
