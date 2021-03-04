@@ -196,5 +196,9 @@ Django Basics
         ]
        ```  
      > ***Don't put anything in static file which makes any security loop hole*** 
+     
+     > You can put only those file which is public like any public javascript library, css folder or anything which you want to available publicly for download etc
+     
+     
 
     
