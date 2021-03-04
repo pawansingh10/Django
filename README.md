@@ -163,9 +163,10 @@ Django Basics
 
            ]
        ```
-    - Create views
+      
+   - Create views
      
-        - ```python
+        -  ```python
            from django.shortcuts import render, HttpResponse
 
            def index(request):
@@ -180,7 +181,7 @@ Django Basics
 
            def contact(request):
                return HttpResponse("This is Contact page")
-        ``` 
+         ``` 
   
        
      
