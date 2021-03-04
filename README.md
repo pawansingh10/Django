@@ -144,7 +144,47 @@ Django Basics
         path('',include('home.urls'))   #anyurl rediect to home.urls
         ]
         ``` 
-        
+     
+   ### URL Dispatching
+   
+   - Learn to forward url from admin to home & from home to others like about, conatact, services etc through home's **urls.py** file
+      
+      - ```python
+           from django.contrib import admin
+           from django.urls import path
+           from home import views
+
+
+           urlpatterns = [
+                 path("", views.index, name='home'),
+                 path("about", views.about, name='about'),
+                 path("services", views.services, name='services'),
+                 path("contact", views.contact, name='contact'),
+
+           ]
+       ```
+    - Create views
+     
+       -  ```python
+           from django.shortcuts import render, HttpResponse
+           # Create your views here.
+
+           def index(request):
+                return HttpResponse("This is Home page")
+
+
+           def about(request):
+               return HttpResponse("This is About page")
+
+           def services(request):
+               return HttpResponse("This is services page")
+
+           def contact(request):
+               return HttpResponse("This is Contact page")
+        ``` 
+  
+       
+     
      
 
     
