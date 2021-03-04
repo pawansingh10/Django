@@ -18,8 +18,8 @@ Django Basics
   1. Python on your device
   2. Django
   3. Open Powershell in your Folder [rightClick]+shift for windows
-  4. ```bash pip install django```
-  5. ```bash pip install django --version ```
+  4. ``` pip install django```
+  5. ``` pip install django --version ```
   6. Folder open with VSCode
   7. Go To Extension and Search **django** [Baptiste Darthenay] first one
   8. Also Install **python** [microsoft]
@@ -28,7 +28,7 @@ Django Basics
 ## Get Started With Django
 
    - Create a Project
-   - ```bash django-admin startproject project_name```
+   - ``` django-admin startproject project_name```
    - Your project will added with multiple files by django-admin
      - Project_Name Folder
        - init.py
@@ -36,7 +36,7 @@ Django Basics
        - urls.py
      - manage.py
    - Terminal
-   - ```bash python manage.py runserver```
+   - ``` python manage.py runserver```
    - Now your server start & you have a port
    - [http://127.0.0.1:8000](http://127.0.0.1:8000) open it It say Django Worked Successfully!
    - 
