@@ -200,5 +200,10 @@ Django Basics
      > You can put only those file which is public like any public javascript library, css folder or anything which you want to available publicly for download etc
      
      
-
+- Template
+   - Go to the settings.py and Temoplate = [   ]
+   - ```python
+       'DIRS': [BASE_DIR / "templates"],
+     ```
+   - Create a index.html inside template
     
