@@ -181,7 +181,7 @@ Django Basics
 
            def contact(request):
                return HttpResponse("This is Contact page")
-         ``` 
+        ``` 
   
        
      
