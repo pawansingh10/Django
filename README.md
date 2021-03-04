@@ -140,9 +140,11 @@ Django Basics
         from django.urls import path
 
         urlpatterns = [
-        path('admin/', admin.site.urls),
+        path('admin/', admin.site.urls), # deafult for admin http://127.0.0.1:8000/admin/login/?next=/admin/
+        path('',include('home.urls'))   #anyurl rediect to home.urls
         ]
         ``` 
+        
      
 
     
