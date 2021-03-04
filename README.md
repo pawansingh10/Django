@@ -87,3 +87,4 @@ Django Basics
     - This View is used to execute the **Business Logic** and Interact with a Model to carry Data & render a template.
     - There is no separate **Controller** Here Complete Application is based on ModelView Template
     - ![MVT](mvt.jfif)
+    - ![Websitework](websiteWorking.jfif)
