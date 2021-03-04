@@ -121,7 +121,7 @@ Django Basics
       - ```python
            urlpatterns = [
             path('admin/', admin.site.urls),
-          ]```
+          ] ```
       - Project vs App
      
 
