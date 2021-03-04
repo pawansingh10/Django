@@ -184,7 +184,17 @@ Django Basics
         ``` 
   
        
-     
+  - Create Static & Template Folder
+    - Static Folder hold static file
+    - Static files are those files which anyone come to your server and see it. unlike you dont't want that anyone see your python code.
+    - [staticFile](https://docs.djangoproject.com/en/3.1/howto/static-files/)
+    - To serve static file Add maually in settings.py
+    - ```python
+        STATICFILES_DIRS = [
+        BASE_DIR / "static",
+        '/var/www/static/',
+]
+    ```  
      
 
     
